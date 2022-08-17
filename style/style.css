@@ -12,7 +12,6 @@
     grid-template-rows: repeat(1, 507px);
     grid-auto-rows: 507px;
 }
-
 .cart {
     border-radius: 8px;
     display: grid;
@@ -48,8 +47,7 @@
     font-family: 'Lexend Deca';
     font-size: 15px;
     line-height: 25px;
-
-
+    opacity: 75%;
 }
 .btn {
     grid-row: 5;
