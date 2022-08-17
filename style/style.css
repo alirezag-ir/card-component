@@ -1,14 +1,5 @@
 /* FONTS */
-@font-face {
-    font-family: BigShoulders;
-    src: url(/fonts/BigShouldersDisplay-Bold.ttf)  format("truetype");
-}
-@font-face {
-    font-family: LexendDeca;
-    src: url(/fonts/LexendDeca-Regular.ttf) format("truetype");
-}
-
-
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 * {
     color: white;
@@ -50,14 +41,14 @@
     grid-row: 3;
     grid-column: 2;
     padding-top: 35px;
-    font-family: BigShoulders;
+    font-family: 'Big Shoulders Display', cursive;
     font-size: 40px;
 }
 .paragraph {
     grid-row: 4;
     grid-column: 2/4;
     padding-top: 25px;
-    font-family: LexendDeca;
+    font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     line-height: 25px;
 
@@ -68,7 +59,7 @@
     grid-column: 2/4;
     display: block;
     margin-top: 83px;
-    font-family: LexendDeca;
+    font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     text-decoration: none;
     color: white;
